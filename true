@@ -1,0 +1,384 @@
+[1590736077.843][INFO]: Starting ChromeDriver 81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}) on port 12121
+[1590736077.843][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1590736078.306][INFO]: [930a3f194dcc9c14847a2771e7f00e1a] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      }
+   }
+}
+[1590736078.310][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1590736078.312][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1590736078.327][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --load-extension="C:\Users\User\AppData\Local\Temp\scoped_dir12016_317961769\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\User\AppData\Local\Temp\scoped_dir12016_1527415284" data:,
+[1590736079.611][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1590736081.760][INFO]: [930a3f194dcc9c14847a2771e7f00e1a] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "81.0.4044.138",
+      "chrome": {
+         "chromedriverVersion": "81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776})",
+         "userDataDir": "C:\\Users\\User\\AppData\\Local\\Temp\\scoped_dir12016_1527415284"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:52002"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "930a3f194dcc9c14847a2771e7f00e1a"
+}
+[1590736081.770][INFO]: [930a3f194dcc9c14847a2771e7f00e1a] COMMAND SetTimeouts {
+   "implicit": 15000
+}
+[1590736081.770][INFO]: [930a3f194dcc9c14847a2771e7f00e1a] RESPONSE SetTimeouts
+[1590736081.774][INFO]: [930a3f194dcc9c14847a2771e7f00e1a] COMMAND Navigate {
+   "url": "http://166.62.36.207/humanresources/symfony/web/index.php/auth/login"
+}
+[1590736081.774][INFO]: Waiting for pending navigations...
+[1590736081.777][INFO]: Done waiting for pending navigations. Status: ok
+[1590736082.344][INFO]: Waiting for pending navigations...
+[1590736082.450][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736082.551][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736082.652][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736082.753][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736082.854][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736082.954][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736083.074][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736083.175][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736083.276][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736083.377][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736083.478][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736083.580][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736083.681][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736083.782][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736083.883][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736083.984][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736084.085][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736084.186][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736084.287][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736084.388][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736084.489][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736084.591][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736084.695][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736084.796][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736084.897][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736084.998][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736085.100][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736085.203][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736085.311][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736085.424][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736085.533][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736085.635][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736085.740][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736085.844][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736085.945][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736086.067][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736086.178][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736086.282][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736086.385][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736086.496][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736086.685][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736086.792][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736086.894][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736086.995][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736087.102][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736087.204][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736087.305][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736087.406][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736087.508][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736087.613][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736087.686][INFO]: Done waiting for pending navigations. Status: ok
+[1590736087.686][INFO]: [930a3f194dcc9c14847a2771e7f00e1a] RESPONSE Navigate
+[1590736087.723][INFO]: [930a3f194dcc9c14847a2771e7f00e1a] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#txtUsername"
+}
+[1590736087.723][INFO]: Waiting for pending navigations...
+[1590736087.736][INFO]: Done waiting for pending navigations. Status: ok
+[1590736087.819][INFO]: Waiting for pending navigations...
+[1590736087.820][INFO]: Done waiting for pending navigations. Status: ok
+[1590736087.820][INFO]: [930a3f194dcc9c14847a2771e7f00e1a] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "bb679f30-1e71-4493-9c7b-40d8a1158ce5"
+}
+[1590736087.847][INFO]: [930a3f194dcc9c14847a2771e7f00e1a] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#txtUsername"
+}
+[1590736087.848][INFO]: Waiting for pending navigations...
+[1590736087.854][INFO]: Done waiting for pending navigations. Status: ok
+[1590736087.872][INFO]: Waiting for pending navigations...
+[1590736087.873][INFO]: Done waiting for pending navigations. Status: ok
+[1590736087.873][INFO]: [930a3f194dcc9c14847a2771e7f00e1a] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "bb679f30-1e71-4493-9c7b-40d8a1158ce5"
+}
+[1590736087.879][INFO]: [930a3f194dcc9c14847a2771e7f00e1a] COMMAND ClearElement {
+   "id": "bb679f30-1e71-4493-9c7b-40d8a1158ce5"
+}
+[1590736087.879][INFO]: Waiting for pending navigations...
+[1590736087.880][INFO]: Done waiting for pending navigations. Status: ok
+[1590736087.925][INFO]: 
+	=== NOTE: ===
+	The Clear command in ChromeDriver 2.43 and above
+	has been updated to conform to the current standard,
+	including raising blur event after clearing.
+
+[1590736087.944][INFO]: Waiting for pending navigations...
+[1590736087.944][INFO]: Done waiting for pending navigations. Status: ok
+[1590736087.944][INFO]: [930a3f194dcc9c14847a2771e7f00e1a] RESPONSE ClearElement
+[1590736087.950][INFO]: [930a3f194dcc9c14847a2771e7f00e1a] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#txtUsername"
+}
+[1590736087.950][INFO]: Waiting for pending navigations...
+[1590736087.950][INFO]: Done waiting for pending navigations. Status: ok
+[1590736087.960][INFO]: Waiting for pending navigations...
+[1590736087.961][INFO]: Done waiting for pending navigations. Status: ok
+[1590736087.961][INFO]: [930a3f194dcc9c14847a2771e7f00e1a] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "bb679f30-1e71-4493-9c7b-40d8a1158ce5"
+}
+[1590736087.966][INFO]: [930a3f194dcc9c14847a2771e7f00e1a] COMMAND TypeElement {
+   "id": "bb679f30-1e71-4493-9c7b-40d8a1158ce5",
+   "text": "Admin",
+   "value": [ "A", "d", "m", "i", "n" ]
+}
+[1590736087.966][INFO]: Waiting for pending navigations...
+[1590736087.967][INFO]: Done waiting for pending navigations. Status: ok
+[1590736088.138][INFO]: Waiting for pending navigations...
+[1590736088.139][INFO]: Done waiting for pending navigations. Status: ok
+[1590736088.139][INFO]: [930a3f194dcc9c14847a2771e7f00e1a] RESPONSE TypeElement
+[1590736088.143][INFO]: [930a3f194dcc9c14847a2771e7f00e1a] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='txtPassword']"
+}
+[1590736088.143][INFO]: Waiting for pending navigations...
+[1590736088.144][INFO]: Done waiting for pending navigations. Status: ok
+[1590736088.160][INFO]: Waiting for pending navigations...
+[1590736088.160][INFO]: Done waiting for pending navigations. Status: ok
+[1590736088.160][INFO]: [930a3f194dcc9c14847a2771e7f00e1a] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "5917c791-538b-4387-bb41-d35e1007182f"
+}
+[1590736088.165][INFO]: [930a3f194dcc9c14847a2771e7f00e1a] COMMAND ClearElement {
+   "id": "5917c791-538b-4387-bb41-d35e1007182f"
+}
+[1590736088.165][INFO]: Waiting for pending navigations...
+[1590736088.166][INFO]: Done waiting for pending navigations. Status: ok
+[1590736088.232][INFO]: Waiting for pending navigations...
+[1590736088.233][INFO]: Done waiting for pending navigations. Status: ok
+[1590736088.233][INFO]: [930a3f194dcc9c14847a2771e7f00e1a] RESPONSE ClearElement
+[1590736088.237][INFO]: [930a3f194dcc9c14847a2771e7f00e1a] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='txtPassword']"
+}
+[1590736088.237][INFO]: Waiting for pending navigations...
+[1590736088.238][INFO]: Done waiting for pending navigations. Status: ok
+[1590736088.245][INFO]: Waiting for pending navigations...
+[1590736088.245][INFO]: Done waiting for pending navigations. Status: ok
+[1590736088.245][INFO]: [930a3f194dcc9c14847a2771e7f00e1a] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "5917c791-538b-4387-bb41-d35e1007182f"
+}
+[1590736088.253][INFO]: [930a3f194dcc9c14847a2771e7f00e1a] COMMAND TypeElement {
+   "id": "5917c791-538b-4387-bb41-d35e1007182f",
+   "text": "Hum@nhrm123",
+   "value": [ "H", "u", "m", "@", "n", "h", "r", "m", "1", "2", "3" ]
+}
+[1590736088.253][INFO]: Waiting for pending navigations...
+[1590736088.253][INFO]: Done waiting for pending navigations. Status: ok
+[1590736088.382][INFO]: Waiting for pending navigations...
+[1590736088.383][INFO]: Done waiting for pending navigations. Status: ok
+[1590736088.383][INFO]: [930a3f194dcc9c14847a2771e7f00e1a] RESPONSE TypeElement
+[1590736088.388][INFO]: [930a3f194dcc9c14847a2771e7f00e1a] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input#btnLogin"
+}
+[1590736088.388][INFO]: Waiting for pending navigations...
+[1590736088.389][INFO]: Done waiting for pending navigations. Status: ok
+[1590736088.411][INFO]: Waiting for pending navigations...
+[1590736088.412][INFO]: Done waiting for pending navigations. Status: ok
+[1590736088.412][INFO]: [930a3f194dcc9c14847a2771e7f00e1a] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "ff0bdc04-6937-454c-b294-5a762d432d1f"
+}
+[1590736088.443][INFO]: [930a3f194dcc9c14847a2771e7f00e1a] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "ff0bdc04-6937-454c-b294-5a762d432d1f"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1590736088.443][INFO]: Waiting for pending navigations...
+[1590736088.451][INFO]: Done waiting for pending navigations. Status: ok
+[1590736088.482][INFO]: Waiting for pending navigations...
+[1590736088.483][INFO]: Done waiting for pending navigations. Status: ok
+[1590736088.483][INFO]: [930a3f194dcc9c14847a2771e7f00e1a] RESPONSE ExecuteScript true
+[1590736088.487][INFO]: [930a3f194dcc9c14847a2771e7f00e1a] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input#btnLogin"
+}
+[1590736088.487][INFO]: Waiting for pending navigations...
+[1590736088.488][INFO]: Done waiting for pending navigations. Status: ok
+[1590736088.495][INFO]: Waiting for pending navigations...
+[1590736088.495][INFO]: Done waiting for pending navigations. Status: ok
+[1590736088.496][INFO]: [930a3f194dcc9c14847a2771e7f00e1a] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "ff0bdc04-6937-454c-b294-5a762d432d1f"
+}
+[1590736088.500][INFO]: [930a3f194dcc9c14847a2771e7f00e1a] COMMAND IsElementEnabled {
+   "id": "ff0bdc04-6937-454c-b294-5a762d432d1f"
+}
+[1590736088.500][INFO]: Waiting for pending navigations...
+[1590736088.501][INFO]: Done waiting for pending navigations. Status: ok
+[1590736088.515][INFO]: Waiting for pending navigations...
+[1590736088.518][INFO]: Done waiting for pending navigations. Status: ok
+[1590736088.519][INFO]: [930a3f194dcc9c14847a2771e7f00e1a] RESPONSE IsElementEnabled true
+[1590736088.523][INFO]: [930a3f194dcc9c14847a2771e7f00e1a] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input#btnLogin"
+}
+[1590736088.523][INFO]: Waiting for pending navigations...
+[1590736088.524][INFO]: Done waiting for pending navigations. Status: ok
+[1590736088.535][INFO]: Waiting for pending navigations...
+[1590736088.536][INFO]: Done waiting for pending navigations. Status: ok
+[1590736088.536][INFO]: [930a3f194dcc9c14847a2771e7f00e1a] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "ff0bdc04-6937-454c-b294-5a762d432d1f"
+}
+[1590736088.548][INFO]: [930a3f194dcc9c14847a2771e7f00e1a] COMMAND ClickElement {
+   "id": "ff0bdc04-6937-454c-b294-5a762d432d1f"
+}
+[1590736088.548][INFO]: Waiting for pending navigations...
+[1590736088.549][INFO]: Done waiting for pending navigations. Status: ok
+[1590736088.649][INFO]: Waiting for pending navigations...
+[1590736090.432][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736090.642][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736090.743][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736091.419][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736091.578][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736091.687][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736091.798][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736091.905][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736092.006][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736092.112][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736092.225][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736092.329][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736092.433][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736092.537][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736092.643][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736092.745][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736092.848][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736092.952][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736093.053][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736093.161][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736093.267][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736093.371][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736093.472][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736093.574][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590736093.658][INFO]: Done waiting for pending navigations. Status: ok
+[1590736093.658][INFO]: [930a3f194dcc9c14847a2771e7f00e1a] RESPONSE ClickElement
+[1590736093.666][INFO]: [930a3f194dcc9c14847a2771e7f00e1a] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='branding']/a[1]/img"
+}
+[1590736093.667][INFO]: Waiting for pending navigations...
+[1590736093.668][INFO]: Done waiting for pending navigations. Status: ok
+[1590736093.686][INFO]: Waiting for pending navigations...
+[1590736093.687][INFO]: Done waiting for pending navigations. Status: ok
+[1590736093.687][INFO]: [930a3f194dcc9c14847a2771e7f00e1a] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "414da744-db09-41bb-b2a8-4bdc23c8c4e9"
+}
+[1590736093.707][INFO]: [930a3f194dcc9c14847a2771e7f00e1a] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "414da744-db09-41bb-b2a8-4bdc23c8c4e9"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1590736093.707][INFO]: Waiting for pending navigations...
+[1590736093.714][INFO]: Done waiting for pending navigations. Status: ok
+[1590736093.733][INFO]: Waiting for pending navigations...
+[1590736093.734][INFO]: Done waiting for pending navigations. Status: ok
+[1590736093.734][INFO]: [930a3f194dcc9c14847a2771e7f00e1a] RESPONSE ExecuteScript true
+[1590736093.741][INFO]: [930a3f194dcc9c14847a2771e7f00e1a] COMMAND Quit {
+
+}
+[1590736094.026][INFO]: [930a3f194dcc9c14847a2771e7f00e1a] RESPONSE Quit
