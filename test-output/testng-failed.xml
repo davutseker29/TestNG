@@ -3,13 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testNG.class02.HW">
+      <class name="com.test.LoginTest">
         <methods>
-          <include name="validLogin"/>
-          <include name="closeBrowser"/>
-          <include name="openBrowserAndNavigate"/>
+          <include name="quitBrowser"/>
+          <include name="tearDown"/>
+          <include name="emptyUsernameLogin"/>
+          <include name="invalidPasswordLogin"/>
+          <include name="setUp"/>
+          <include name="openAndNavigate"/>
         </methods>
-      </class> <!-- com.testNG.class02.HW -->
+      </class> <!-- com.test.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

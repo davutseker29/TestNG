@@ -1,37 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-05-29T00:07:49 PDT" name="Default suite" finished-at="2020-05-29T00:08:14 PDT" duration-ms="24981">
+  <suite started-at="2020-05-30T16:27:32 PDT" name="Default suite" finished-at="2020-05-30T16:28:09 PDT" duration-ms="36915">
     <groups>
     </groups>
-    <test started-at="2020-05-29T00:07:49 PDT" name="Default test" finished-at="2020-05-29T00:08:14 PDT" duration-ms="24981">
-      <class name="com.testNG.class02.HW">
-        <test-method is-config="true" signature="openBrowserAndNavigate()[pri:0, instance:com.testNG.class02.HW@15b204a1]" started-at="2020-05-29T00:07:49 PDT" name="openBrowserAndNavigate" finished-at="2020-05-29T00:07:56 PDT" duration-ms="6285" status="PASS">
+    <test started-at="2020-05-30T16:27:32 PDT" name="Default test" finished-at="2020-05-30T16:28:09 PDT" duration-ms="36915">
+      <class name="com.test.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.LoginTest@161479c6]" started-at="2020-05-30T16:27:32 PDT" name="setUp" finished-at="2020-05-30T16:27:41 PDT" duration-ms="8475" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openBrowserAndNavigate -->
-        <test-method signature="invalidLogin()[pri:0, instance:com.testNG.class02.HW@15b204a1]" started-at="2020-05-29T00:07:56 PDT" name="invalidLogin" finished-at="2020-05-29T00:07:56 PDT" duration-ms="788" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="adminLogin()[pri:0, instance:com.test.LoginTest@161479c6]" started-at="2020-05-30T16:27:41 PDT" name="adminLogin" finished-at="2020-05-30T16:27:46 PDT" duration-ms="5399" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- invalidLogin -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.testNG.class02.HW@15b204a1]" started-at="2020-05-29T00:07:56 PDT" name="closeBrowser" finished-at="2020-05-29T00:07:57 PDT" duration-ms="863" status="PASS">
+        </test-method> <!-- adminLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.LoginTest@161479c6]" started-at="2020-05-30T16:27:46 PDT" name="tearDown" finished-at="2020-05-30T16:27:47 PDT" duration-ms="1187" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="openBrowserAndNavigate()[pri:0, instance:com.testNG.class02.HW@15b204a1]" started-at="2020-05-29T00:07:57 PDT" name="openBrowserAndNavigate" finished-at="2020-05-29T00:08:07 PDT" duration-ms="9956" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.LoginTest@161479c6]" started-at="2020-05-30T16:27:47 PDT" name="setUp" finished-at="2020-05-30T16:27:55 PDT" duration-ms="7498" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openBrowserAndNavigate -->
-        <test-method signature="validLogin()[pri:0, instance:com.testNG.class02.HW@15b204a1]" started-at="2020-05-29T00:08:07 PDT" name="validLogin" finished-at="2020-05-29T00:08:13 PDT" duration-ms="6022" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="emptyUsernameLogin()[pri:0, instance:com.test.LoginTest@161479c6]" started-at="2020-05-30T16:27:55 PDT" name="emptyUsernameLogin" finished-at="2020-05-30T16:27:55 PDT" duration-ms="573" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validLogin -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.testNG.class02.HW@15b204a1]" started-at="2020-05-29T00:08:13 PDT" name="closeBrowser" finished-at="2020-05-29T00:08:14 PDT" duration-ms="997" status="PASS">
+        </test-method> <!-- emptyUsernameLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.LoginTest@161479c6]" started-at="2020-05-30T16:27:55 PDT" name="tearDown" finished-at="2020-05-30T16:27:57 PDT" duration-ms="1772" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.testNG.class02.HW -->
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.LoginTest@161479c6]" started-at="2020-05-30T16:27:57 PDT" name="setUp" finished-at="2020-05-30T16:28:07 PDT" duration-ms="9685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidPasswordLogin()[pri:0, instance:com.test.LoginTest@161479c6]" started-at="2020-05-30T16:28:07 PDT" name="invalidPasswordLogin" finished-at="2020-05-30T16:28:08 PDT" duration-ms="1529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPasswordLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.LoginTest@161479c6]" started-at="2020-05-30T16:28:08 PDT" name="tearDown" finished-at="2020-05-30T16:28:09 PDT" duration-ms="737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
