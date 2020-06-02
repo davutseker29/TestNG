@@ -18,14 +18,12 @@ import com.utils.ConfigsReader;
 
 		@Test
 		public void logoAndWelcomeValidation() {
-			LoginPageElements login = new LoginPageElements();
-			DashboardPageElements dashboard = new DashboardPageElements();
-
+			
 			// Logo assertion
 			boolean logoDisplayed = login.logo.isDisplayed();
 
 			// I am failing on purpose
-			logoDisplayed = false;
+			logoDisplayed = true;
 
 			// If I do a (hard) Assert, the code will not continue executing
 			// Assert.assertTrue(logoDisplayed, "Logo is not displayed");

@@ -1,29 +1,25 @@
 package com.test;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.testng.Assert;
-import org.testng.annotations.*;
-
-import com.pages.LoginPageElements;
+import org.testng.annotations.Test;
 import com.utils.CommonMethods;
+import com.utils.ConfigsReader;
 
 public class AddEmployeeTest extends CommonMethods {
-	
-	
+
 	@Test
-	public void AddEmployeeTest() {
-	
-		LoginPageElements login=new LoginPageElements();
-		
-		login.login("Admin", "Hum@nhrm123");
-		WebElement pimLink = driver.findElement(By.xpath("//b[text()='PIM']"));
-		click(pimLink);
-		WebElement employeeList = driver.findElement(By.id("menu_pim_addEmployee"));
-		click(employeeList);
-		
-		String expected="Add Employee";
-		Assert.assertEquals(expected, driver.findElement(By.xpath("//h1[text()='Add Employee']")).getText(), "not matched");
-		
+	public void addEmployeePage() {
+
+		login.login(ConfigsReader.getProperty("username"), ConfigsReader.getProperty("password"));
+		dashboard.navigateToAddEmployee();
+		wait(7);
+
+//		sendText(addEmp.empFirstName, ConfigsReader.getProperty("employeeFirstname"));
+//		sendText(addEmp.empLastName, ConfigsReader.getProperty("employeeLastname"));
+//		sendText(addEmp.addPhoto, ConfigsReader.getProperty("filePath"));
+//		waitAndClick(addEmp.saveEmp);
+
+		// add assertion to verify that employee has been added successfully
+
 	}
+
 }

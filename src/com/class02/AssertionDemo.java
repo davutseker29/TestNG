@@ -14,16 +14,6 @@ public class AssertionDemo extends CommonMethods {
 	// AssertionError is handled within TestNG
 	// Even if one Test Case fails, the others will executed
 
-	@BeforeMethod
-	public void openAndNavigate() {
-		setUp();
-		driver.manage().window().maximize();
-	}
-	@AfterMethod
-	public void quitBrowser() {
-		tearDown();	
-	}
-	
 	@Test
 	public void titleValidation() {
 		String expectedTitle = "Human Management System";

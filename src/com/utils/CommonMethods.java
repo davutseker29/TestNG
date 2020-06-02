@@ -1,12 +1,16 @@
 package com.utils;
 
+import java.io.File;
 import java.util.List;
 import java.util.Set;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.NoSuchFrameException;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -241,28 +245,26 @@ public class CommonMethods extends PageInitializer {
 		getJSObject().executeScript("window.scrollBy(0,-" + pixel + ")");
 	}
 
+	/**
+	 * This Method will take a screenshot
+	 * 
+	 * @param filename
+	 */
+	public static void takeScreenshot(String filename) {
+		TakesScreenshot ts = (TakesScreenshot) driver;
+		File file = ts.getScreenshotAs(OutputType.FILE);
+		try {
+			FileUtils.copyFile(file, new File("screenshot/" + filename + ".png"));
+		} catch (Exception ex) {
+			System.out.println("Cannot take screenshot!");
+		}
+	}
+
 	public static void wait(int second) {
 		try {
 			Thread.sleep(second * 1000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
-		}
-	}
-	/**
-	 * this method will select a date from the calendar
-	 * 
-	 * @param element
-	 * @param text
-	 */
-	
-	public static void selectCalendarDate(List<WebElement> element, String text) {
-		for (WebElement pickDate : element) {
-			if (pickDate.isEnabled()) {
-				if (pickDate.getText().equals(text)) {
-					pickDate.click();
-					break;
-				}
-			}
 		}
 	}
 }

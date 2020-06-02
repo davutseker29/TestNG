@@ -1,49 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-05-30T16:27:32 PDT" name="Default suite" finished-at="2020-05-30T16:28:09 PDT" duration-ms="36915">
+  <suite started-at="2020-06-02T01:47:19 PDT" name="Default suite" finished-at="2020-06-02T01:47:19 PDT" duration-ms="50">
     <groups>
+      <group name="addEmp">
+        <method signature="HW.test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.class04.HW@60d8c9b7]" name="test" class="com.class04.HW"/>
+      </group> <!-- addEmp -->
+      <group name="homework">
+        <method signature="HW.test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.class04.HW@60d8c9b7]" name="test" class="com.class04.HW"/>
+      </group> <!-- homework -->
+      <group name="regression">
+        <method signature="HW.test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.class04.HW@60d8c9b7]" name="test" class="com.class04.HW"/>
+      </group> <!-- regression -->
     </groups>
-    <test started-at="2020-05-30T16:27:32 PDT" name="Default test" finished-at="2020-05-30T16:28:09 PDT" duration-ms="36915">
-      <class name="com.test.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.LoginTest@161479c6]" started-at="2020-05-30T16:27:32 PDT" name="setUp" finished-at="2020-05-30T16:27:41 PDT" duration-ms="8475" status="PASS">
+    <test started-at="2020-06-02T01:47:19 PDT" name="Default test" finished-at="2020-06-02T01:47:19 PDT" duration-ms="50">
+      <class name="com.class04.HW">
+        <test-method signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.class04.HW@60d8c9b7]" started-at="2020-06-02T01:47:19 PDT" name="test" data-provider="userDataFromExcel" finished-at="2020-06-02T01:47:19 PDT" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method public void com.class04.HW.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String) requires a @DataProvider named : userDataFromExcel]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method public void com.class04.HW.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String) requires a @DataProvider named : userDataFromExcel
+at org.testng.internal.Parameters.findDataProvider(Parameters.java:559)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:772)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:788)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:767)
+at org.testng.TestRunner.run(TestRunner.java:588)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+at org.testng.TestNG.runSuites(TestNG.java:1066)
+at org.testng.TestNG.run(TestNG.java:1034)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="adminLogin()[pri:0, instance:com.test.LoginTest@161479c6]" started-at="2020-05-30T16:27:41 PDT" name="adminLogin" finished-at="2020-05-30T16:27:46 PDT" duration-ms="5399" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- adminLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.LoginTest@161479c6]" started-at="2020-05-30T16:27:46 PDT" name="tearDown" finished-at="2020-05-30T16:27:47 PDT" duration-ms="1187" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.LoginTest@161479c6]" started-at="2020-05-30T16:27:47 PDT" name="setUp" finished-at="2020-05-30T16:27:55 PDT" duration-ms="7498" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="emptyUsernameLogin()[pri:0, instance:com.test.LoginTest@161479c6]" started-at="2020-05-30T16:27:55 PDT" name="emptyUsernameLogin" finished-at="2020-05-30T16:27:55 PDT" duration-ms="573" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- emptyUsernameLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.LoginTest@161479c6]" started-at="2020-05-30T16:27:55 PDT" name="tearDown" finished-at="2020-05-30T16:27:57 PDT" duration-ms="1772" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.LoginTest@161479c6]" started-at="2020-05-30T16:27:57 PDT" name="setUp" finished-at="2020-05-30T16:28:07 PDT" duration-ms="9685" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="invalidPasswordLogin()[pri:0, instance:com.test.LoginTest@161479c6]" started-at="2020-05-30T16:28:07 PDT" name="invalidPasswordLogin" finished-at="2020-05-30T16:28:08 PDT" duration-ms="1529" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidPasswordLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.LoginTest@161479c6]" started-at="2020-05-30T16:28:08 PDT" name="tearDown" finished-at="2020-05-30T16:28:09 PDT" duration-ms="737" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.test.LoginTest -->
+        </test-method> <!-- test -->
+      </class> <!-- com.class04.HW -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

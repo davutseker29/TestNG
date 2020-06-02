@@ -10,15 +10,6 @@ import com.utils.ConfigsReader;
 public class TitleLogoAndLoginValidation extends CommonMethods {
 	
 	
-	
-	@BeforeMethod
-	public void openAndNavigate() {
-		setUp();	
-	}
-	@AfterMethod
-	public void quitBrowser() {
-		tearDown();	
-	}
 	@Test
 	public void titleValidation() {
 		

@@ -12,19 +12,6 @@ import com.utils.ConfigsReader;
 
 public class LoginTest extends CommonMethods {
 
-//	@BeforeMethod
-//	public void openAndNavigate() {
-//		setUp();
-//		driver.manage().window().maximize();
-//		initialize();
-//	}
-//
-//	@AfterMethod
-//	public void quitBrowser() {
-//		wait(5);
-//		tearDown();
-//	}
-
 	@Test
 	public void adminLogin() {
 
