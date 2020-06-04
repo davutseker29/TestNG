@@ -50,7 +50,7 @@ public class HW extends CommonMethods {
 	@DataProvider(name = "userData")
 	public Object[][] getData() {
 		Object[][] data = { 
-				{ "Rajma", "Capoora", "raj123435345", "AmirKhan_@123" },
+				{ "Rajmiuha", "Clkapoora", "raj123435345", "AmirKhan_@123" },
 //				{ "John", "Smith", "john123", "AmirKhan_@123" }, 
 //				{ "Mary", "Ann", "mary123", "AmirKhan_@123" },
 //				{ "Rohani", "Sakhi", "rohani123", "AmirKhan_@123" }, 
