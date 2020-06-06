@@ -42,7 +42,7 @@ public class LoginTest extends CommonMethods {
 		System.out.println("InvalidPasswordLogin passed");
 	}
 
-	@Test
+	@Test(enabled=true)
 	public void emptyUsernameLogin() {
 
 		LoginPageElements login = new LoginPageElements();
