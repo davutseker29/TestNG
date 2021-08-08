@@ -23,7 +23,7 @@ public class CommonMethods extends PageInitializer {
 	 * Method that clears and sends keys
 	 * 
 	 * @param element
-	 * @param text
+	 * @param text 
 	 */
 	public static void sendText(WebElement element, String text) {
 		element.clear();
