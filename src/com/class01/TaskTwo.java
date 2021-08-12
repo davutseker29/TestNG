@@ -2,7 +2,9 @@ package com.class01;
 
 import org.testng.annotations.*;
 
-public class TaskTwo {
+import com.utils.CommonMethods;
+
+public class TaskTwo extends CommonMethods {
 	
 	@BeforeClass
 	public void beforeClass() {

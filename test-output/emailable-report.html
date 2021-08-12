@@ -8,13 +8,28 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">82</td><td></td><td></td></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">11</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">42,549</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.class01.TaskTwo</td><td><a href="#m0">test1</a></td><td rowspan="1">1628465154696</td><td rowspan="1">9</td></tr><tr class="passedeven"><td><a href="#m1">test2</a></td><td rowspan="1">1628465154712</td><td rowspan="1">2</td></tr><tr class="passedeven"><td><a href="#m2">test3</a></td><td rowspan="1">1628465154718</td><td rowspan="1">2</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.class02.HW</td><td><a href="#m0">invalidLogin</a></td><td rowspan="1">1628747253640</td><td rowspan="1">1346</td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.class02.HW</td><td><a href="#m1">validLogin</a></td><td rowspan="1">1628747255772</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.class02.AssertClassDemo</td><td><a href="#m2">titleValidation</a></td><td rowspan="1">1628747224315</td><td rowspan="1">12</td></tr><tr class="passedodd"><td rowspan="2">com.class02.AssertionDemo</td><td><a href="#m3">logoValidation</a></td><td rowspan="1">1628747248936</td><td rowspan="1">81</td></tr><tr class="passedodd"><td><a href="#m4">titleValidation</a></td><td rowspan="1">1628747245370</td><td rowspan="1">10</td></tr><tr class="passedeven"><td rowspan="1">com.class02.SoftAssertionDemo</td><td><a href="#m5">logoAndWelcomeValidation</a></td><td rowspan="1">1628747260102</td><td rowspan="1">2267</td></tr><tr class="passedodd"><td rowspan="3">com.class02.Task02</td><td><a href="#m6">logoDisplayed</a></td><td rowspan="1">1628747227726</td><td rowspan="1">110</td></tr><tr class="passedodd"><td><a href="#m7">signIn</a></td><td rowspan="1">1628747232901</td><td rowspan="1">1983</td></tr><tr class="passedodd"><td><a href="#m8">verification</a></td><td rowspan="1">1628747239355</td><td rowspan="1">2546</td></tr><tr class="passedeven"><td rowspan="4">com.class02.TaskOne</td><td><a href="#m9">firstMethod</a></td><td rowspan="1">1628747220605</td><td rowspan="1">2</td></tr><tr class="passedeven"><td><a href="#m10">fourthMethod</a></td><td rowspan="1">1628747220576</td><td rowspan="1">10</td></tr><tr class="passedeven"><td><a href="#m11">secondMethod</a></td><td rowspan="1">1628747220599</td><td rowspan="1">2</td></tr><tr class="passedeven"><td><a href="#m12">thirdMethod</a></td><td rowspan="1">1628747220594</td><td rowspan="1">2</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.class01.TaskTwo#test1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.class01.TaskTwo#test2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.class01.TaskTwo#test3</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">com.class02.HW#invalidLogin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Exception
+	at com.class02.HW.invalidLogin(HW.java:108)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.class02.HW#validLogin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method HW.validLogin()[pri:2, instance:com.class02.HW@78e117e3] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.class02.AssertClassDemo#titleValidation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.class02.AssertionDemo#logoValidation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.class02.AssertionDemo#titleValidation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.class02.SoftAssertionDemo#logoAndWelcomeValidation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.class02.Task02#logoDisplayed</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.class02.Task02#signIn</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.class02.Task02#verification</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.class02.TaskOne#firstMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.class02.TaskOne#fourthMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.class02.TaskOne#secondMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.class02.TaskOne#thirdMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
