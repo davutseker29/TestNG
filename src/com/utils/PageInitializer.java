@@ -2,6 +2,7 @@ package com.utils;
 
 import com.pages.AddEmployeePageElements;
 import com.pages.DashboardPageElements;
+import com.pages.EmployeeListPageElements;
 import com.pages.LoginPageElements;
 import com.pages.PersonalDetailsPageElements;
 import com.pages.SauceDemoLoginPage;
@@ -15,6 +16,7 @@ public class PageInitializer extends BaseClass{
 	public static DashboardPageElements dashboard;
 	public static PersonalDetailsPageElements pdetails;
 	public static SauceDemoLoginPage sauce;
+	public static EmployeeListPageElements empList;
 	
 	public static void initialize() {
 		
@@ -23,6 +25,6 @@ public class PageInitializer extends BaseClass{
 		addEmp=new AddEmployeePageElements();
 		pdetails=new PersonalDetailsPageElements();
 		sauce=new SauceDemoLoginPage();
-		
+		empList=new EmployeeListPageElements();
 	}
 }

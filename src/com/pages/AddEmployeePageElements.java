@@ -2,6 +2,7 @@ package com.pages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.PageFactory;
 
 import com.utils.CommonMethods;
@@ -31,6 +32,12 @@ public class AddEmployeePageElements extends CommonMethods {
 
 	@FindBy(id = "btnSave")
 	public WebElement saveBtn;
+
+	@FindBy(xpath = "//select[@id='status']")
+	public WebElement status;
+
+	@FindBy(css = "span[for='lastName']")
+	public WebElement reqLastName;
 
 	public AddEmployeePageElements() {
 		PageFactory.initElements(driver, this);
