@@ -1,25 +1,149 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-08-18T13:07:02 PDT" name="Default suite" finished-at="2021-08-18T13:07:13 PDT" duration-ms="10864">
+  <suite started-at="2021-08-19T15:44:47 PDT" name="Suite" finished-at="2021-08-19T15:45:42 PDT" duration-ms="55022">
     <groups>
     </groups>
-    <test started-at="2021-08-18T13:07:02 PDT" name="Default test" finished-at="2021-08-18T13:07:13 PDT" duration-ms="10864">
-      <class name="com.test.HW02">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.HW02@2b6faea6]" started-at="2021-08-18T13:07:02 PDT" name="setUp" finished-at="2021-08-18T13:07:07 PDT" duration-ms="4572" status="PASS">
+    <test started-at="2021-08-19T15:44:47 PDT" name="Test" finished-at="2021-08-19T15:45:42 PDT" duration-ms="55022">
+      <class name="com.class04.HW01">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.class04.HW01@3967e60c]" started-at="2021-08-19T15:44:47 PDT" name="setUp" finished-at="2021-08-19T15:44:51 PDT" duration-ms="3608" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="requiredCheck()[pri:0, instance:com.test.HW02@2b6faea6]" started-at="2021-08-18T13:07:07 PDT" name="requiredCheck" finished-at="2021-08-18T13:07:12 PDT" duration-ms="5524" status="PASS">
+        <test-method signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.class04.HW01@3967e60c]" started-at="2021-08-19T15:44:51 PDT" name="login" data-provider="getData" finished-at="2021-08-19T15:45:00 PDT" duration-ms="9435" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[veli]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[aliVeli033]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Atlanta02!,,]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- requiredCheck -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.HW02@2b6faea6]" started-at="2021-08-18T13:07:12 PDT" name="tearDown" finished-at="2021-08-18T13:07:13 PDT" duration-ms="714" status="PASS">
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.class04.HW01@3967e60c]" started-at="2021-08-19T15:45:00 PDT" name="tearDown" finished-at="2021-08-19T15:45:01 PDT" duration-ms="756" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.test.HW02 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.class04.HW01@3967e60c]" started-at="2021-08-19T15:45:01 PDT" name="setUp" finished-at="2021-08-19T15:45:04 PDT" duration-ms="2797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.class04.HW01@3967e60c]" started-at="2021-08-19T15:45:04 PDT" name="login" data-provider="getData" finished-at="2021-08-19T15:45:13 PDT" duration-ms="9744" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ziya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[liko]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ziyaliko044]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Atlanta01!,,]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.class04.HW01@3967e60c]" started-at="2021-08-19T15:45:13 PDT" name="tearDown" finished-at="2021-08-19T15:45:14 PDT" duration-ms="727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.class04.HW01@3967e60c]" started-at="2021-08-19T15:45:14 PDT" name="setUp" finished-at="2021-08-19T15:45:17 PDT" duration-ms="2987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.class04.HW01@3967e60c]" started-at="2021-08-19T15:45:17 PDT" name="login" data-provider="getData" finished-at="2021-08-19T15:45:28 PDT" duration-ms="10547" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vedat]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kaan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kaanvedat067]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Atlanta03!,,]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.class04.HW01@3967e60c]" started-at="2021-08-19T15:45:28 PDT" name="tearDown" finished-at="2021-08-19T15:45:28 PDT" duration-ms="744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.class04.HW01@3967e60c]" started-at="2021-08-19T15:45:28 PDT" name="setUp" finished-at="2021-08-19T15:45:31 PDT" duration-ms="2866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.class04.HW01@3967e60c]" started-at="2021-08-19T15:45:31 PDT" name="login" data-provider="getData" finished-at="2021-08-19T15:45:41 PDT" duration-ms="10065" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pamir]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sedat]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pamirsedat095]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Atlanta03!,,]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.class04.HW01@3967e60c]" started-at="2021-08-19T15:45:41 PDT" name="tearDown" finished-at="2021-08-19T15:45:42 PDT" duration-ms="681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.class04.HW01 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

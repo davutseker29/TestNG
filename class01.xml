@@ -3,23 +3,18 @@
 <suite name="Suite">
 	<test thread-count="5" name="Test">
 		<packages>
-			<package name="com.class01" />
-		</packages>
-	</test> <!-- Test -->
+			<package name="com.class02">
 
-	<!-- 2nd way -->
-	<test name="Test class01">
-		<packages>
-			<package name="com.class01" />
+			</package>
 		</packages>
 		<classes>
-			<class name="com.class01.TitleLogoAndLoginValidation">
+			<class name="HW">
 				<methods>
 					<exclude name=".*"></exclude>
 				</methods>
 			</class>
 		</classes>
-	</test>
-
-
+	</test> <!-- Test -->
 </suite> <!-- Suite -->
+
+<!--to exclude class not possible but with .* , we can exclude all methods inside the class  -->

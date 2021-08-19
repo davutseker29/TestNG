@@ -3,14 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.class02.HW">
+      <class name="com.class04.HW01">
         <methods>
-          <include name="invalidLogin"/>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="validLogin"/>
+          <include name="login" invocation-numbers="0 1 2 3"/>
         </methods>
-      </class> <!-- com.class02.HW -->
+      </class> <!-- com.class04.HW01 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
