@@ -19,7 +19,5 @@ public class ListenerDemo implements ITestListener {
 
 	public void onTestSkipped(ITestResult result) {
 		System.out.println("Test case skipped " + result.getName());
-		
-	
 	}
 }

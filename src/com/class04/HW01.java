@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 
 import com.utils.CommonMethods;
 import com.utils.ConfigsReader;
+import com.utils.ExcelUtility;
 
 public class HW01 extends CommonMethods {
 
@@ -21,8 +22,8 @@ public class HW01 extends CommonMethods {
 
 		boolean displayed = dashboard.welcome.isDisplayed();
 		Assert.assertTrue(displayed, "not displayed");
+		
 		addEmp.checkboxLoginDetails.click();
-
 		String actual = addEmp.employeeId.getAttribute("value");
 		sendText(addEmp.firstName, firstname);
 		sendText(addEmp.lastName, lastname);
@@ -44,12 +45,17 @@ public class HW01 extends CommonMethods {
 	@DataProvider
 	public Object[][] getData() {
 
-		Object[][] data = { { "ali", "veli", "aliVeli033", "Atlanta02!,," }, { "ziya", "liko", "ziyaliko044", "Atlanta01!,," },
-				{ "vedat", "kaan", "kaanvedat067", "Atlanta03!,," }, { "pamir", "sedat", "pamirsedat095", "Atlanta03!,," },
+		Object[][] data = { { "ali", "veli", "aliVeli0433", "Atlanta02!,," }, { "ziya", "liko", "ziyaliko0454", "Atlanta01!,," },
+				{ "vedat", "kaan", "kaanvedat0657", "Atlanta03!,," }, { "pamir", "sedat", "pamirsedat0955", "Atlanta03!,," },
 
 		};
 
 		return data;
+	}
+	
+	@DataProvider(name = "userDataFromExcel")
+	public Object[][] getData2() {
+		return ExcelUtility.excelIntoArray(System.getProperty("user.dir") + "/testdata/Excel.xlsx", "Employee");
 	}
 
 }
